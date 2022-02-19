@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>博客园用户登录</title>
+    <link rel="stylesheet" href="css/login_style.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="f">
+        <div id="d1">
+            <p id="p1">博客园用户登录</p>
+            <a href="home.html"> <img src="https://account.cnblogs.com/images/login-sign.svg" alt="" id="img1"></a>
+            <p id="p2">代码改变世界</p>
+        </div>
+        <div id="d2">
+            <label for="one"><span>密码登录</span></label>
+            <label for="two"><span>短信登录</span></label>
+        </div>
+
+        <input type="radio" id="one" name="ow" style="display:none">
+        <input type="radio" id="two" name="ow" style="display:none">
+        <div id="db"></div>
+        <div id="d3">
+            <ul id="u1">
+                <li>
+                    <input id="txtlongin" autofocus type="text" placeholder="登录用户名/邮箱">
+                    <a href="helpName.html" id="a1"> 忘记登录用户名</a>
+                    <input id="txtpwd" type="password" placeholder="密码">
+                    <a href="helpPassWord.html" id="a2">忘记密码</a>
+                </li>
+                <li>
+                    <input id="firstPhone" type="text" value="+86" placeholder="国码"><input id="phone" autofocus
+                        type="text" placeholder="手机号">
+                    <input id="captcha" type="password" placeholder="验证码"><input id="three" type="submit"
+                        value="获取验证码"><br>
+                </li>
+            </ul>
+
+            <input id="remember" type="checkbox"> <label for="remember">记住我</label>
+
+        </div>
+        <input type="reset" value="登录" id="loginInput">
+        <ul id="u2">
+            <li>
+                <span>第三方登录</span>
+            </li>
+            <li>
+                <img src="image/WeChat.png" alt="" width="16px">
+            </li>
+            <li>
+                <img src="image/QQ.png" alt="" width="16px">
+            </li>
+            <li>
+                <img src="image/GitHub.png" alt="" width="16px">
+            </li>
+        </ul>
+        <p>没有账户，
+            <a href="register.html">立即注册</a>
+        </p>
+    </div>
+</body>
+
+</html>
