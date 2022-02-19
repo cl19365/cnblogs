@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+#d1{
+    margin-top: 15px;
+    margin-left: 3%;
+    position: relative;
+    width: 97%;
+    height: 45px;
+}
+#d1>ul>li{
+    float: left;
+    font-size: 15px;
+    margin-left: 2%;
+}
+#d1>ul>li>a{
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+}
+#d1>ul>li>a:hover{
+    color: rgb(70, 70, 70);
+    text-decoration: underline;
+}
+#d1>ul>li:first-child>a>img{
+    width: 98px;
+    height: 36px;
+    margin-top: -9px;
+}
+#d1>ul>li:first-child{
+    margin-left: 0;
+    margin-right: 2.5%;
+}
+#d1>ul>li:last-child>img{
+    position: absolute;
+    top: 35%;
+    right: -20px;
+}
+#d1>ul>li:last-child{
+    position: relative;
+}
+#d1>ul>li:last-child>div{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+#d1>ul>li:last-child>ul{
+    display: none;
+    position: absolute;
+    width: 77px;
+    z-index: 10;
+}
+#d1>ul>li:last-child>ul>li{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: rgb(70, 70, 70);
+}
+#d1>ul>li:last-child>div:hover~ul,#d1>ul>li:last-child>ul:hover{
+    display: block;
+    background-color: #fff;
+}
+#d1>ul:last-child{
+    position: absolute;
+    right: 0;
+    width: 400px;
+    height: 34px;
+}
+#d1>ul:last-child>li:first-child{
+    position: relative;
+}
+#search{
+    width: 216px;
+    height: 34px;
+    padding-left: 15px;
+    border-radius: 6px;
+    background-color: #f4f4f4;
+    border: 0;
+    outline: 0;
+    position: absolute;
+    top: -8px;
+    left: -5px;
+}
+#search_button{
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: 190px;
+    top: -1px;
+    cursor: pointer;
+}
+#d1>ul:last-child>li:nth-child(2){
+    margin-top: -1.5px;
+    margin-left: 270px;
+}
+#d1>ul:last-child>li:nth-child(3){
+    margin-top: -2px;
+    margin-left: 20px;
+}
+#d2{
+    position: relative;
+    width: 100%;
+    height: 32px;
+    margin-top: -10px;
+}
+#d2 img{
+    position: absolute;
+}
+#d2>a:first-child>img{
+    width: 100%; 
+}
+#d2>a:nth-child(2)>img{
+    margin-left: 90px;
+    height: 32px;
+    width: auto;
+}
+#d2>a:last-child>img{
+    height: 32px;
+    width: auto;
+    right: 7%;
+}
+#d3{
+    width: 100%;
+    height: 2700px;
+    margin-top: 10px;
+    position: relative;
+}
+#d3>div:first-child{
+    width: 192px;
+    height: 100%;
+    background-color: rgb(248, 248, 248);
+    padding-top: 25px;
+}
+#d3_u1{
+    margin-left: 5%;
+}
+#d3_u1 a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    position: relative;
+    font-size: 15px;
+}
+#d3_u1 a:hover{
+    color: rgb(97, 190, 243);
+}
+#d3_u1 li:nth-child(8)>a:hover{
+    color: rgb(70, 70, 70);
+}
+#d3_u1 li:nth-child(10)>a:hover{
+    color: rgb(70, 70, 70);
+}
+#d3_u1 a>img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: -35px;
+    top: 3px;
+}
+#d3_u1 a>img:nth-child(7){
+    width: 12px;
+    height: 12px;
+}
+#d3_u1 a>img:nth-child(8){
+    width: 20px;
+    height: 20px;
+}
+#d3_u1 a>img:nth-child(7){
+    width: 18px;
+    height: 19px;
+}
+#d3_u1>li{
+    display: block;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+#d3_u1>li:first-child{
+    margin-top: 0;
+}
+.line{
+    margin-bottom: 1%;
+    width: 137px;
+    border-top:1px solid #f1f1f1;
+    margin-left: 45px !important;
+}
+#d3_u1>li:nth-child(8){
+    position: relative;
+}
+#d3_u1>li:nth-child(8)>ul{
+    display: none;
+    position: absolute;
+    width: 86px;
+    z-index: 10;
+}
+#d3_u1>li:nth-child(8)>div:hover~ul,#d3_u1>li:nth-child(8)>ul:hover{
+    display: block;
+    background-color: #fff;
+    color: rgb(70, 70, 70);
+}
+#d3_u1>li:nth-child(8)>div{
+    position: absolute;
+    width: 135px;
+    height: 20px;
+    top: 0;
+    left: -35px;
+    cursor: pointer;
+}
+#d3_u1>li:nth-child(8) ul a{
+    margin-left: 15px;
+}
+#d3_u1>li:nth-child(8) ul a:hover{
+    color: rgb(70, 70, 70);
+    text-decoration: underline ;
+}
+#d3_u1>li:nth-child(8) ul>li{
+    margin: 20px 0;
+}
+#d3_u1>li:last-child>img{
+    cursor: pointer;
+}
+
+#d3>div:last-child{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 340px;
+    height: 100%;
+    padding-top: 25px;
+    background-color: rgb(248, 248, 248);
+}
+.d3_u2 img{
+    margin-left: 16px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.d3_u2 span{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.d3_u2 span:hover{
+    cursor: pointer;
+    color: rgb(97, 190, 243);
+}
+.d3_u3>li>span{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.d3_u3>li>span:first-child{
+    color: rgb(70, 70, 70);
+    font-size: 14px;
+    margin-left: 20px;
+}
+.d3_u3>li:nth-child(4){
+    position: relative;
+}
+.d3_u3>li:nth-child(4)>span:last-child{
+    margin-left: 42px;
+    margin-top: 8px;
+}
+.d3_u3>li{
+    margin-bottom: 8px;
+}
+.d3_u3>li:first-child{
+    margin: 20px 0;
+}
+.t:hover{
+    cursor: pointer;
+}
+.a:hover{
+    cursor: pointer;
+    color: rgb(97, 190, 243);
+}
+#d3>div:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+.two,.three{
+    color: #0053a1;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+.one{
+    font-size: 15px;
+}
+.three:hover{
+    color: #f60;
+    text-decoration: underline;
+}
+.text>p>img{
+    padding: 1px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.text{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    position: relative;
+    width: 900px;
+}
+.text>a{
+    color: #0053a1;
+}
+.text>a:hover{
+    color: #f60;
+    text-decoration: underline;
+}
+.text>p{
+    display: block;
+    color: #555;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.text>p:last-child{
+    position: absolute;
+    top: 90px;
+}
+.s2>a{
+    text-decoration: none;
+}
+.text>p:last-child>.three{
+    margin-right: 20px;
+}
+.s2{
+   margin-right: 20px;
+}
+.s2 a:hover{
+    color: rgb(97, 190, 243);
+}
+.bottom{
+    width: 100%;
+    height: 160px; 
+}
+.img{
+    float: left;
+    margin: auto;
+    padding: 5px 10px;
+    margin-right: 20px;
+    margin-top: 13%;
+    color: #959595;
+    background-color: #f4f4f6;
+}
+.img_1{
+    color: #fff;
+    background-color: #2f96fd;
+    margin-left: 32%;
+}
+.img_5{
+    width: 50px;
+}
